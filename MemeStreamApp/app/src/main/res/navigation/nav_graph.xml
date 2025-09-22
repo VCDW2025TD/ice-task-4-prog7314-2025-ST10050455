@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.memestreamapp.ui.FeedFragment"
+        android:label="Feed" />
+
+    <fragment
+        android:id="@+id/createMemeFragment"
+        android:name="com.example.memestreamapp.ui.CreateMemeFragment"
+        android:label="Create" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.memestreamapp.ui.MapFragment"
+        android:label="Map" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.memestreamapp.ui.ProfileFragment"
+        android:label="Profile" />
+</navigation>

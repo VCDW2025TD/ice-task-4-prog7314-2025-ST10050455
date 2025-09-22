@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/feedFragment" android:title="Feed" />
+    <item android:id="@+id/createMemeFragment" android:title="Create" />
+    <item android:id="@+id/mapFragment" android:title="Map" />
+    <item android:id="@+id/profileFragment" android:title="Profile" />
+</menu>
